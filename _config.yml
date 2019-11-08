@@ -1,0 +1,7 @@
+# Site settings
+title: TANG Tan Yi
+description: Angel's personal site
+keywords: Marketing digital, CV, job
+author: shinmanoko
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
