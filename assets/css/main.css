@@ -172,6 +172,12 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+
+	.kw {
+		color:#cccccc;
+	}
+
+
 	#footer p a {
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 	}
@@ -1594,16 +1600,17 @@ input, select, textarea {
 			border-radius: 50%;
 			box-shadow: inset 0 0 0 1px #ffffff;
 			display: inline-block;
-			height: 2.5rem;
-			line-height: 2.5rem;
-			width: 2.5rem;
+			height: 3.5rem;
+			line-height: 3.5rem;
+			width: 3.5rem;
 			font-family: "Font Awesome 5 Free";
 			text-transform: uppercase;
-			font-size: 0.25rem;
+			font-size: 0.5rem;
 		}
 
 		#header .cv p span {
 			display: none
+			font-size: 20px;
 		}
 		/*
 		#header .cv:hover {
@@ -1613,7 +1620,7 @@ input, select, textarea {
 			-webkit-animation-timing-function: ease-in-out;
 			transition-delay: 0.1s;
 		}
-
+		
 		#header .cv:hover:before {
 			content: "See My";
 		}
@@ -2017,9 +2024,9 @@ input, select, textarea {
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+  right: -12px;
   background-color: black;
-  border: 4px solid #FF9F55;
+  border: 4px solid #ff558e; /* #FF9F55; */
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -2239,7 +2246,7 @@ color:#333;
 
 .bar { 
 	height:18px; 
-	margin:1px 2px;  
+	margin:1px -7px;  
 	position:absolute;
 	border-radius:10px;
 	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
