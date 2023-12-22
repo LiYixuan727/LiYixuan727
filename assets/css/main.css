@@ -172,6 +172,13 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+	.subpage li a {
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+	}
+		.subpage p a:hover {
+			border-bottom-color: transparent;
+		}
+
 
 	.kw {
 		color:#cccccc;
@@ -1600,12 +1607,12 @@ input, select, textarea {
 			border-radius: 50%;
 			box-shadow: inset 0 0 0 1px #ffffff;
 			display: inline-block;
-			height: 3.5rem;
-			line-height: 3.5rem;
-			width: 3.5rem;
+			height: 2.5rem;
+			line-height: 2.5rem;
+			width: 2.5rem;
 			font-family: "Font Awesome 5 Free";
 			text-transform: uppercase;
-			font-size: 0.5rem;
+			font-size: 0.7rem;
 		}
 
 		#header .cv p span {
@@ -2254,8 +2261,8 @@ color:#333;
 	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
 }
 
-.graphic-design {
-	width:100%; 
+.hundred {
+	width:99%; 
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
 	background-color: #f674a4;
@@ -2267,8 +2274,21 @@ color:#333;
 	background-image: linear-gradient(top, #f674a4, #e06995);
 }
 
-.html-css {
-	width:90%;
+.ninety {
+	width:90%; 
+	-moz-animation:graphic-design 2s ease-out;
+	-webkit-animation:graphic-design 2s ease-out;
+	background-color: #f674a4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+	background-image: -o-linear-gradient(top, #f674a4, #e06995);
+	background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.senventy-five {
+	width:75%;
 	-moz-animation:html-css 2s ease-out;
 	-webkit-animation:html-css 2s ease-out;
 	background-color: #f0bb4b;
@@ -2280,8 +2300,8 @@ color:#333;
 	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
 }
 
-.jquery {
-	width:65%;
+.fivety {
+	width:50%;
 	-moz-animation:jquery 2s ease-out;
 	-webkit-animation:jquery 2s ease-out;
 	background-color: #a1ce5b;
@@ -2293,8 +2313,8 @@ color:#333;
 	background-image: linear-gradient(top, #a1ce5b, #91ba52);
 }
 
-.wordpress {
-	width:80%;
+.twenty-five {
+	width:25%;
 	-moz-animation:wordpress 2s ease-out;
 	-webkit-animation:wordpress 2s ease-out;
 	background-color: #66b3cc;
