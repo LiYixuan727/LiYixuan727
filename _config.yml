@@ -3,11 +3,11 @@ title: Li Yixuan
 description: My Personal Site
 keywords: NLP, CV, job
 author: shinmanoko
-baseurl: "/myblog/" # the subpath of your site, e.g. /blog/
-url: "http://LiYixuan727.github.io/myblog" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://shinmanoko.github.io" # the base hostname & protocol for your site
 
 deploy:
   type: git
-  repo: https://github.com/LiYixuan727/myblog.git
+  repo: https://github.com/shinmanoko/shinmanoko.github.io.git
   branch: master
-  root: /myblog/
+  #root: /myblog/
