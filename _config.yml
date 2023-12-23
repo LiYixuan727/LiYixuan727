@@ -8,6 +8,6 @@ url: "" # the base hostname & protocol for your site
 
 deploy:
   type: git
-  repo: https://github.com/LiYixuan727/LiYixuan727.github.io-myblog.git
+  repo: https://github.com/LiYixuan727/myblog.git
   branch: master
   root: /myblog/
